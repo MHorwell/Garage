@@ -6,16 +6,15 @@ public class Bicycle extends Vehicle{
 	private String type;
 	
 	
-
 	//Constructors
-	public Bicycle(int vId, String vColour, String vManufacturer, String type) {
+	public Bicycle(int vId, String vColour, String vManufacturer, String vType) {
 		super(vId, vColour, vManufacturer);
-		this.type = type;
+		this.type = vType;
 	}
 	
 	//Methods
 	public int servicePrice() {
-		return (20);
+		return 20;
 	}
 
 }

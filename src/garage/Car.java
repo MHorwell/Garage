@@ -11,9 +11,15 @@ public class Car extends Vehicle {
 		this.model = vModel;
 	}
 
+
 	// Methods
 	public int servicePrice() {
 		return 300;
 	}
+	
+	public String getmodel() {
+		return this.model;
+	}
+	
 
 }

@@ -3,6 +3,7 @@ package garage;
 import java.util.ArrayList;
 
 public class Garage {
+	
 	public static void main(String args[]) {
 	
 	Car bVauxhall = new Car(003, "Black", "Vauxhall", "Agila");
@@ -12,8 +13,7 @@ public class Garage {
 	garage.add(SEBike);
 	
 		for(Vehicle V : garage) {
-			
-			System.out.println(V);
+			System.out.println(V.returnID() + " " + V.servicePrice());
 		}
 			 
 	}

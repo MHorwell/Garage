@@ -21,5 +21,12 @@ public abstract class Vehicle {
 	}
 
 	// Methods
+	public int returnID() {
+		return this.id;
+	}
+	public abstract int servicePrice();
+	
+
+
 
 }
