@@ -16,6 +16,10 @@ public class Bicycle extends Vehicle{
 	public int servicePrice() {
 		return 20;
 	}
-
+	
+	public String getType() {
+		return this.type;
+	}
+	
 }
 	

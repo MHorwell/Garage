@@ -15,4 +15,5 @@ public class Motorcycle extends Vehicle {
 		return 200;
 	}
 
+
 }

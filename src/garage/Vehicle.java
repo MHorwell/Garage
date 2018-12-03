@@ -24,6 +24,14 @@ public abstract class Vehicle {
 	public int returnID() {
 		return this.id;
 	}
+	
+	public String getColour() {
+		return this.colour;
+	}
+	
+	public void setManufacturer(String input) {
+		this.manufacturer = input;
+	}
 	public abstract int servicePrice();
 	
 

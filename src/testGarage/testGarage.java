@@ -9,15 +9,22 @@ import garage.Car;
 
 public class testGarage {
 	
+	Car testCar = new Car(004, "Blue", "Vauxhall", "Agila");
+	
 	@Test
 	public void testCarModel() {
-		Car testCar = new Car(004, "Blue", "Vauxhall", "Agila");
 		assertEquals("Agila", testCar.getmodel());
 	}
 	
-	public void testVehicleID() {
-		Bicycle testBike = new Bicycle()
+	@Test
+	public void testBikeType() {
+		Bicycle testBike = new Bicycle(001, "Blue", "Yamaha", "BMX");
+				assertEquals("BMX", testBike.getType());
 	}
 	
+	@Test
+	public void testVColour() {
+		assertEquals("Blue", testCar.getColour());
+	}
 
 }
