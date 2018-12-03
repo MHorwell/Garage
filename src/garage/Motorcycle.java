@@ -14,6 +14,10 @@ public class Motorcycle extends Vehicle {
 	public int servicePrice() {
 		return 200;
 	}
+	
+	public String getModel() {
+		return this.model;
+	}
 
 
 }

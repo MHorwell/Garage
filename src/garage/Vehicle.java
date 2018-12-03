@@ -6,7 +6,6 @@ public abstract class Vehicle {
 	private int id;
 	private String colour;
 	private String manufacturer;
-	private int numberOfWheels;
 
 	// Constructors
 	public Vehicle(int vId, String vColour, String vManufacturer) {
@@ -29,9 +28,14 @@ public abstract class Vehicle {
 		return this.colour;
 	}
 	
+	public String getManufacturer() {
+		return this.manufacturer;
+	}
+	
 	public void setManufacturer(String input) {
 		this.manufacturer = input;
 	}
+	
 	public abstract int servicePrice();
 	
 
